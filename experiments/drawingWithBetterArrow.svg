@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="drawingWithBetterArrow.svg"
+   inkscape:version="0.91 r13725"
+   version="1.1"
+   id="svg2"
+   viewBox="0 0 744.09448819 1052.3622047"
+   height="297mm"
+   width="210mm">
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:window-height="1137"
+     inkscape:window-width="1920"
+     showgrid="false"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     inkscape:cy="239"
+     inkscape:cx="280"
+     inkscape:zoom="0.7"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <path
+       id="TopLineOfArrowShaft"
+       d="m 75,300 c 286,-9 535,-59 535,-59"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       id="BottomLineOfArrow"
+       d="m 75,340 c 286,9 535,59 535,59"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <circle
+       r="20"
+       cy="320"
+       cx="75"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#000000;stroke-width:0.57805872px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="circle3396" />
+    <path
+       id="TopOfArrowHead"
+       style="fill:none;stroke:#000000;stroke-width:2"
+       d="m 600,320 -90,-180 240,180 -150,0 Z" />
+    <path
+       id="BottomOfArrowHead"
+       style="fill:none;stroke:#000000;stroke-width:2"
+       d="m 600,320 -90,180 240,-180 -150,0 Z" />
+    <path
+       id="path3400"
+       style="fill:none;stroke:#000000;stroke-width:2"
+       d="M 600,550 510,370 750,550 600,550 Z" />
+    <path
+       id="path3407"
+       inkscape:label="Triangle"
+       style="fill:none;stroke:#000000;stroke-width:2"
+       d="M 604.78792,553.76609 514.02344,375.54766 754.78599,554.52641 604.78792,553.76609 Z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3407-2"
+       inkscape:label="Triangle"
+       style="fill:none;stroke:#000000;stroke-width:2"
+       d="M 605.70379,556.64807 514.93931,734.8665 755.70186,555.88775 605.70379,556.64807 Z"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 387,633 c 0,0 -95,52 -255,52"
+       id="path3354"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 104.28571,527.36218 c 0,0 47.85715,-147.85714 107.14286,-2.14286 59.28572,145.71429 132.85715,-42.14285 132.14286,-46.42857"
+       id="path9547"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#000080"
+       id="path9549"
+       sodipodi:type="arc"
+       sodipodi:cx="140.71428"
+       sodipodi:cy="418.79074"
+       sodipodi:rx="27.142857"
+       sodipodi:ry="27.142857"
+       sodipodi:start="1.5707963"
+       sodipodi:end="4.712389"
+       d="m 140.71428,445.9336 a 27.142857,27.142857 0 0 1 -23.5064,-13.57143 27.142857,27.142857 0 0 1 0,-27.14286 27.142857,27.142857 0 0 1 23.5064,-13.57143 l 0,27.14286 z" />
+    <path
+       style="fill:#000080"
+       id="path9551"
+       sodipodi:rx="36.4"
+       sodipodi:ry="36.4"
+       sodipodi:start="1.57"
+       d="m 184,457 a 36.4,36.4 0 0 1 -36,-36 36.4,36.4 0 0 1 36,-36"
+       sodipodi:type="arc"
+       sodipodi:cx="184"
+       sodipodi:cy="421"
+       sodipodi:end="4.71"
+       sodipodi:open="true" />
+    <path
+       inkscape:connector-curvature="0"
+       id="TopLineOfArrowShaft-0"
+       d="M 38.4,998 C 324,989 573,939 573,939"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="BottomLineOfArrow-7"
+       d="M 38.4,1040 C 324,1050 573,1100 573,1100"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="TopOfArrowHead-7"
+       style="fill:none;stroke:#000000;stroke-width:2"
+       d="m 563,1020 -90,-182 240,182 -150,0 z" />
+    <path
+       inkscape:connector-curvature="0"
+       id="BottomOfArrowHead-0"
+       style="fill:none;stroke:#000000;stroke-width:2"
+       d="m 563,1020 -90,180 240,-180 -150,0 z" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 39.4,997 c -84.4,1 -88.4,43 -1,43"
+       id="path9630"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

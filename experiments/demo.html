@@ -8,6 +8,52 @@
 			<polygon points="100,90 220,60" style="fill:lime;" />
 			<line x1="100" y1="90" x2="220" y2="60" style="stroke:rgb(255,0,0);stroke-width:2" />
         </svg>
+        <svg style="
+            width: 2000px;
+                height: 2000px;
+                ">
+            <g>
+    <path 
+        id="TopLineOfArrowShaft" 
+        d="m 75,300 c 286,-9 535,-59 535,-59" 
+        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"></path>
+    <path 
+        id="BottomLineOfArrow" 
+        d="m 75,340 c 286,9 535,59 535,59" 
+        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"></path>
+    <circle
+       r="20"
+       cy="320"
+       cx="75"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#000000;stroke-width:0.57805872px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path 
+        id="TopOfArrowHead" 
+        style="fill:none;stroke:#000000;stroke-width:2" 
+        d="m 600,320 -90,-180 240,180 -150,0 Z"></path>
+    <path 
+        id="BottomOfArrowHead" 
+        style="fill:none;stroke:#000000;stroke-width:2" 
+        d="m 600,320 -90,180 240,-180 -150,0 Z"></path>
+    <path 
+        id="TopOfArrowHead" 
+        style="fill:none;stroke:#000000;stroke-width:2" 
+        d="M 600,550 510,370 750,550 600,550 Z"></path>
+    <path
+       id="path3407"
+       inkscape:label="Triangle"
+       style="fill:none;stroke:#000000;stroke-width:2"
+       d="M 604.78792,553.76609 514.02344,375.54766 754.78599,554.52641 604.78792,553.76609 Z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3407-2"
+       inkscape:label="Triangle"
+       style="fill:none;stroke:#000000;stroke-width:2"
+       d="M 605.70379,556.64807 514.93931,734.8665 755.70186,555.88775 605.70379,556.64807 Z"
+       inkscape:connector-curvature="0" />
+    <path id="TopOfArrowHead" style="fill:blue;stroke:#000000;stroke-width:0" d="m 750,220 -240,-180 30,110 Z"></path>
+    <path id="TopOfArrowHead" style="fill:blue;stroke:#000000;stroke-width:0" d="m 750,220 -240,-180 30,110 c 0,0 -250,59 -500,59"></path>
+  </g>
+        </svg>
 <script>
 var a = document.getElementById("embeddedImage");
 var SVGElement = document.getElementById("SVGElement");
@@ -29,7 +75,7 @@ function ArrowCoordinates (StartArrowPoint, EndArrowPoint) {
 //  alert("DistanceBetweenPoints: " + DistanceBetweenPoints);
   var DegreesOfLine = Math.atan(EndArrowPoint.x - StartArrowPoint.x, EndArrowPoint.y - StartArrowPoint.y ) * 180 / Math.PI;
  // alert("DegreesOfLine: " + DegreesOfLine);
-  var DistanceToArrowHeadTopPoint = 
+//  var DistanceToArrowHeadTopPoint = 
 }
 ArrowCoordinates(points[0], points[1]);
 </script>
