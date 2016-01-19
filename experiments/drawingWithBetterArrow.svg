@@ -26,7 +26,7 @@
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      inkscape:cy="239"
-     inkscape:cx="280"
+     inkscape:cx="-11.8"
      inkscape:zoom="0.7"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
@@ -145,7 +145,7 @@
        d="m 563,1020 -90,180 240,-180 -150,0 z" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 39.4,997 c -84.4,1 -88.4,43 -1,43"
+       d="m 37.1,998 c -80,0 -80,52 0,52"
        id="path9630"
        inkscape:connector-curvature="0" />
   </g>
