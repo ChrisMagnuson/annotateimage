@@ -52,6 +52,8 @@
        inkscape:connector-curvature="0" />
     <path id="TopOfArrowHead" style="fill:blue;stroke:#000000;stroke-width:0" d="m 750,220 -240,-180 30,110 Z"></path>
     <path id="TopOfArrowHead" style="fill:blue;stroke:#000000;stroke-width:0" d="M 750,220 l -240,-180 30,110 c 0,0 -250,59 -500,59 c -22,0 -22,22 0,22 c 250,0 500,59 500,59 l -30,110 240,-180 z"></path>
+    <path style="fill:green;stroke-width:1" d="M 750,220 l -700,220"></path>
+    <line x1="750" y1="220" x2="35" y2="220" style="stroke:rgb(255,0,0);stroke-width:3" />
  </g>
         </svg>
 <script>
@@ -76,8 +78,32 @@ function ArrowCoordinates (StartArrowPoint, EndArrowPoint) {
   var DegreesOfLine = Math.atan(EndArrowPoint.x - StartArrowPoint.x, EndArrowPoint.y - StartArrowPoint.y ) * 180 / Math.PI;
  // alert("DegreesOfLine: " + DegreesOfLine);
 //  var DistanceToArrowHeadTopPoint = 
+  var TotalArrowLength = DistanceBetweenPoints;
+  
+  var RatioOfArrowShaftLengthRelativeToTotalLength = 500/715;
+  var RatioOfArrowShaftWidthRelativeToTotalLength = 22/715;
+  var MaximumArrowShaftWidth = 15;
+  var RatioOfArrowHeadLengthRelativeToTotalLength = 240/715;
+  var RatioOfArrowHeadWidthToArrowHeadLength = 180/240;
+  //var RatioOfArrowNotchLengthToTotalLength = 30/715;
+  //var RatioOfArrowNotchWidthToTotalLength = 110/715;
+  var RatioOfArrowNotchLengthToArrowHeadLength = 30/240;
+  var RatioOfArrowNotchWidthToArrowHeadWidth = 110/180;
+  var MaximumArrowHeadLength = 140;
+
+  var ArrowShaftLength = RatioOfArrowShaftLengthRelativeToTotalLength * TotalArrowLength;
+  var CalculatedArrowHeadLength = RatioOfArrowHeadLengthRelativeToTotalLength * TotalArrowLength;
+  var ArrowHeadLength = CalculatedArrowHeadLength <= MaximumArrowHeadLength ? CalculatedArrowHeadLength : MaximumArrowHeadLength;
+  var ArrowHeadWidth = ArrowHeadLength * RatioOfArrowHeadWidthToArrowHeadLength;
+  var ArrowNotchLength = ArrowHeadLength * RatioOfArrowNotchLengthToArrowHeadLength;
+  var ArrowNotchWidth = ArrowHeadWidth * RatioOfArrowNotchWidthToArrowHeadWidth;
+  var ArrowShaftLength = (ArrowHeadLength - ArrowNotchLength) - TotalArrowLength;
+  var 
 }
 ArrowCoordinates(points[0], points[1]);
+
+
+
 </script>
     </body>
 </html>
